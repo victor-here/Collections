@@ -318,7 +318,8 @@ p {
 
 #skills
 {
-	background-color: #777777;
+	background-color: #262626;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1489769002049-ccd828976a6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1514&q=80);
 	background-size: cover;
 	background-position: center;
 	color: #efefef !important;
@@ -509,14 +510,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 8. EDUCATION SECTION
 --------------------------------- */
 
-.education-wrapper{ position: relative; }
+.contact-wrapper{ position: relative; }
 
-.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
+.contact-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
 	width: 2px; background: #ccc; }
 
-.education-wrapper .education{ position: relative; }
+.contact-wrapper .contact{ position: relative; }
 
-.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
+.contact-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
 	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
 	
